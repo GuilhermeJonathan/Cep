@@ -1,6 +1,4 @@
-﻿using Default.Infra.Seguranca.Config;
-using LiderAviacao.Escalas.Infra.Seguranca.Config;
-using Microsoft.AspNetCore.Authentication.JwtBearer;
+﻿using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.IdentityModel.Tokens;
