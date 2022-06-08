@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="DTOs\" />
+    <Folder Include="UsuarioModule\Handler\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Default.Application.Core\Default.Application.Core.csproj" />
+  </ItemGroup>
+
+</Project>
