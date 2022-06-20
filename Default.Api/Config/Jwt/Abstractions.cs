@@ -14,12 +14,10 @@ namespace Default.Api.Config.Jwt
             if (services == null) throw new ArgumentException(nameof(services));
             if (configuration == null) throw new ArgumentException(nameof(configuration));
 
-            var jwtConfiguration = configuration.GetSection("JwtConfiguracao");
+            var appSettingsSection = configuration.GetSection(appJwtSettingsKey ?? "AppJwtSettings");
+            services.Configure<AppJwtSettings>(appSettingsSection);
 
-            services.Configure<AppJwtSettings>(jwtConfiguration);
-
-            var appSettings = jwtConfiguration.Get<AppJwtSettings>();
-
+            var appSettings = appSettingsSection.Get<AppJwtSettings>();
             var key = Encoding.ASCII.GetBytes(appSettings.SecretKey);
 
             services.AddAuthentication(x =>
