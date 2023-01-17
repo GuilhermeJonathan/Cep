@@ -17,9 +17,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Default.Domain.Core\Default.Domain.Core.csproj" />
-    <ProjectReference Include="..\Default.Domain\Default.Domain.csproj" />
-    <ProjectReference Include="..\Default.Infra.Data.Core\Default.Infra.Data.Core.csproj" />
+    <ProjectReference Include="..\Cep.Domain.Core\Cep.Domain.Core.csproj" />
+    <ProjectReference Include="..\Cep.Domain\Cep.Domain.csproj" />
+    <ProjectReference Include="..\Cep.Infra.Data.Core\Cep.Infra.Data.Core.csproj" />
   </ItemGroup>
 
 </Project>

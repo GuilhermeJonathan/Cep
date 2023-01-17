@@ -5,9 +5,9 @@ VisualStudioVersion = 17.2.32516.85
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 - Presentation", "0 - Presentation", "{E09A3169-AC7A-4327-A299-5E52C1236BDD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Default.Api.Core", "Default.Api.Core\Default.Api.Core.csproj", "{F6C5F54D-D761-4170-8B99-5347B7EA65CC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cep.Api.Core", "Cep.Api.Core\Cep.Api.Core.csproj", "{F6C5F54D-D761-4170-8B99-5347B7EA65CC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Default.Api", "Default.Api\Default.Api.csproj", "{03758053-59A7-4FF8-B429-CE307044063F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cep.Api", "Cep.Api\Cep.Api.csproj", "{03758053-59A7-4FF8-B429-CE307044063F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Application", "1 - Application", "{BDB2C876-8468-4BD4-BF02-884848684708}"
 EndProject
@@ -15,27 +15,27 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Domain", "2 - Domain", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Infra", "3 - Infra", "{46F2F097-ECE2-44A1-BF50-1D8842C241CA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Default.Application.Core", "Default.Application.Core\Default.Application.Core.csproj", "{CA0CB211-FE29-403D-9C5D-BFAC9399AACF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cep.Application.Core", "Cep.Application.Core\Cep.Application.Core.csproj", "{CA0CB211-FE29-403D-9C5D-BFAC9399AACF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Default.Application.Commands", "Default.Application.Commands\Default.Application.Commands.csproj", "{94C5F949-7515-46D4-A0C6-B296E8CC0BED}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cep.Application.Commands", "Cep.Application.Commands\Cep.Application.Commands.csproj", "{94C5F949-7515-46D4-A0C6-B296E8CC0BED}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Default.Application.Read", "Default.Application.Read\Default.Application.Read.csproj", "{6F621286-DB45-4E69-A788-52E6B7B9EF03}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cep.Application.Read", "Cep.Application.Read\Cep.Application.Read.csproj", "{6F621286-DB45-4E69-A788-52E6B7B9EF03}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Default.Domain", "Default.Domain\Default.Domain.csproj", "{F040D295-E3DD-434E-9300-41F062149860}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cep.Domain", "Cep.Domain\Cep.Domain.csproj", "{F040D295-E3DD-434E-9300-41F062149860}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Default.Domain.Core", "Default.Domain.Core\Default.Domain.Core.csproj", "{0CCAE1F1-5FA5-48F0-88E1-BFE3F333BAE3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cep.Domain.Core", "Cep.Domain.Core\Cep.Domain.Core.csproj", "{0CCAE1F1-5FA5-48F0-88E1-BFE3F333BAE3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Default.Infra.CrossCutting", "Default.Infra.CrossCutting\Default.Infra.CrossCutting.csproj", "{58F30CCB-AE96-48B3-A07E-FC0DE8FE65EF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cep.Infra.CrossCutting", "Cep.Infra.CrossCutting\Cep.Infra.CrossCutting.csproj", "{58F30CCB-AE96-48B3-A07E-FC0DE8FE65EF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Default.Infra.CrossCutting.IoC", "Default.Infra.CrossCutting.IoC\Default.Infra.CrossCutting.IoC.csproj", "{01D746AA-C6CC-4575-8CBB-C237224A46F9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cep.Infra.CrossCutting.IoC", "Cep.Infra.CrossCutting.IoC\Cep.Infra.CrossCutting.IoC.csproj", "{01D746AA-C6CC-4575-8CBB-C237224A46F9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Default.Infra.Data", "Default.Infra.Data\Default.Infra.Data.csproj", "{3266F31E-4145-4476-B3E4-8C54A128860E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cep.Infra.Data", "Cep.Infra.Data\Cep.Infra.Data.csproj", "{3266F31E-4145-4476-B3E4-8C54A128860E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Default.Infra.Data.Core", "Default.Infra.Data.Core\Default.Infra.Data.Core.csproj", "{6ED5E708-C734-4C3D-BBA0-D188E5FC01AF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cep.Infra.Data.Core", "Cep.Infra.Data.Core\Cep.Infra.Data.Core.csproj", "{6ED5E708-C734-4C3D-BBA0-D188E5FC01AF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Default.Infra.Data.Dapper", "Default.Infra.Data.Dapper\Default.Infra.Data.Dapper.csproj", "{09675EC6-E141-4404-A355-3B65A1964029}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cep.Infra.Data.Dapper", "Cep.Infra.Data.Dapper\Cep.Infra.Data.Dapper.csproj", "{09675EC6-E141-4404-A355-3B65A1964029}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Default.Infra.Seguranca", "Default.Infra.Seguranca\Default.Infra.Seguranca.csproj", "{D6F1C630-94EB-4080-9993-59E1761770EC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cep.Infra.Seguranca", "Cep.Infra.Seguranca\Cep.Infra.Seguranca.csproj", "{D6F1C630-94EB-4080-9993-59E1761770EC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -18,8 +18,8 @@ namespace Default.Api.Config
             {
                 c.SwaggerDoc("v1", new OpenApiInfo
                 {
-                    Title = "Default.Api",
-                    Description = "Projeto API Default ",
+                    Title = "Cep.Api",
+                    Description = "Busca Cep",
                     Contact = new OpenApiContact { Name = "Teste", Url = new Uri("https://teste.com.br/") }
                 });
 

@@ -10,7 +10,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Default.Application.Read\Default.Application.Read.csproj" />
+    <ProjectReference Include="..\Cep.Application.Read\Cep.Application.Read.csproj" />
   </ItemGroup>
 
 </Project>

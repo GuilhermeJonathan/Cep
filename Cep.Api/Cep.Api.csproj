@@ -24,13 +24,13 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Default.Api.Core\Default.Api.Core.csproj" />
-    <ProjectReference Include="..\Default.Application.Commands\Default.Application.Commands.csproj" />
-    <ProjectReference Include="..\Default.Infra.CrossCutting.IoC\Default.Infra.CrossCutting.IoC.csproj" />
-    <ProjectReference Include="..\Default.Infra.CrossCutting\Default.Infra.CrossCutting.csproj" />
-    <ProjectReference Include="..\Default.Infra.Data.Dapper\Default.Infra.Data.Dapper.csproj" />
-    <ProjectReference Include="..\Default.Infra.Data\Default.Infra.Data.csproj" />
-    <ProjectReference Include="..\Default.Infra.Seguranca\Default.Infra.Seguranca.csproj" />
+    <ProjectReference Include="..\Cep.Api.Core\Cep.Api.Core.csproj" />
+    <ProjectReference Include="..\Cep.Application.Commands\Cep.Application.Commands.csproj" />
+    <ProjectReference Include="..\Cep.Infra.CrossCutting.IoC\Cep.Infra.CrossCutting.IoC.csproj" />
+    <ProjectReference Include="..\Cep.Infra.CrossCutting\Cep.Infra.CrossCutting.csproj" />
+    <ProjectReference Include="..\Cep.Infra.Data.Dapper\Cep.Infra.Data.Dapper.csproj" />
+    <ProjectReference Include="..\Cep.Infra.Data\Cep.Infra.Data.csproj" />
+    <ProjectReference Include="..\Cep.Infra.Seguranca\Cep.Infra.Seguranca.csproj" />
   </ItemGroup>
 
 </Project>

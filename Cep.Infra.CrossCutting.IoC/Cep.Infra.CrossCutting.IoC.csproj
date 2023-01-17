@@ -9,8 +9,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Default.Infra.Data.Core\Default.Infra.Data.Core.csproj" />
-    <ProjectReference Include="..\Default.Infra.Data\Default.Infra.Data.csproj" />
+    <ProjectReference Include="..\Cep.Infra.Data.Core\Cep.Infra.Data.Core.csproj" />
+    <ProjectReference Include="..\Cep.Infra.Data\Cep.Infra.Data.csproj" />
   </ItemGroup>
 
 </Project>
