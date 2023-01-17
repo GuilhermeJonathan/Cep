@@ -1,4 +1,4 @@
-﻿namespace Default.Domain.Entities
+﻿namespace Cep.Domain.Entities
 {
     public class Usuario : EntidadeBase
     {

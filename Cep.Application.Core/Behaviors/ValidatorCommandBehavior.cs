@@ -1,4 +1,4 @@
-﻿using Default.Application.Core.Notification;
+﻿using Cep.Application.Core.Notification;
 using FluentValidation;
 using MediatR;
 using Microsoft.Extensions.Logging;
@@ -6,7 +6,7 @@ using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Default.Application.Core.Behaviors
+namespace Cep.Application.Core.Behaviors
 {
     public class ValidatorCommandBehavior<TRequest, TResponse> : IPipelineBehavior<TRequest, TResponse> where TRequest : MediatR.IRequest<TResponse>
     {

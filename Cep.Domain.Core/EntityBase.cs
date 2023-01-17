@@ -7,7 +7,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 
 
-namespace Default.Domain.Core
+namespace Cep.Domain.Core
 {
     public class EntityBase
     {

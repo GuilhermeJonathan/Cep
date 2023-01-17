@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace Default.Api.Config.Jwt
+namespace Cep.Api.Config.Jwt
 {
     public class AppJwtSettings
     {

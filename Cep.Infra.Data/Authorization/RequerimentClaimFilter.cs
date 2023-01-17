@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Mvc.Filters;
 using System.Security.Claims;
 
 
-namespace Default.Infra.Data.Authorization
+namespace Cep.Infra.Data.Authorization
 {
     internal class RequerimentClaimFilter : IAuthorizationFilter
     {

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Security.Claims;
 
-namespace Default.Infra.Data.Authorization
+namespace Cep.Infra.Data.Authorization
 {
     public static class ClaimsPrincipalExtensions
     {

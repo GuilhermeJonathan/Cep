@@ -5,7 +5,7 @@ using Microsoft.IdentityModel.Tokens;
 using System;
 using System.Text;
 
-namespace Default.Api.Config.Jwt
+namespace Cep.Api.Config.Jwt
 {
     public static class Abstractions
     {

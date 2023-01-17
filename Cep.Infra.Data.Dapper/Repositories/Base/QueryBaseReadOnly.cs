@@ -1,9 +1,8 @@
-﻿using Dapper;
+﻿using Microsoft.Data.SqlClient;
 using Microsoft.Extensions.Configuration;
 using System.Data;
-using System.Threading.Tasks;
 
-namespace Default.Infra.Data.Dapper.Repositories.Base
+namespace Cep.Infra.Data.Dapper.Repositories.Base
 {
     public abstract class QueryBaseReadOnly
     {
@@ -14,6 +13,6 @@ namespace Default.Infra.Data.Dapper.Repositories.Base
             _config = config;
         }
 
-        //public IDbConnection Connection => new OracleConnection(_config.GetConnectionString("DefaultConnection"));
+        public IDbConnection Connection => new SqlConnection(_config.GetConnectionString("DefaultConnection"));
     }
 }

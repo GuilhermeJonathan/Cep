@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 
-namespace Default.Api.Config
+namespace Cep.Api.Config
 {
     public class Notifier : INotifier
     {

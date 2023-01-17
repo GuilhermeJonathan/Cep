@@ -1,6 +1,6 @@
 ﻿using System.Text.Json.Serialization;
 
-namespace Default.Application.Commands
+namespace Cep.Application.Commands
 {
     public class BaseModelCommand
     {

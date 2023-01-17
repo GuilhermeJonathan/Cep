@@ -1,10 +1,10 @@
 ﻿using Autofac;
-using Default.Application.Core.Behaviors;
-using Default.Application.Core.Notification;
+using Cep.Application.Core.Behaviors;
+using Cep.Application.Core.Notification;
 using MediatR;
 using System.Reflection;
 
-namespace Default.Api.Core.Config
+namespace Cep.Api.Core.Config
 {
     public class MediatorModule : Autofac.Module
     {

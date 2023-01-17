@@ -1,8 +1,7 @@
-﻿using Default.Domain.Entities;
-using Default.Infra.Data.EntityMappingConfig;
+﻿using Cep.Domain.Entities;
 using Microsoft.EntityFrameworkCore;
 
-namespace Default.Infra.Data.Context
+namespace Cep.Infra.Data.Context
 {
     public class DefaultDbContext : DbContext
     {
@@ -13,8 +12,7 @@ namespace Default.Infra.Data.Context
         public DbSet<Usuario> Usuarios { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
-        {
-            modelBuilder.ApplyConfiguration(new UsuarioConfiguration());
+        {            
             base.OnModelCreating(modelBuilder);
         }
     }

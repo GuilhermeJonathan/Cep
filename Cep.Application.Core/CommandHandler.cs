@@ -1,13 +1,13 @@
-﻿using Default.Application.Core.Notification;
-using Default.Domain.Core;
-using Default.Infra.Data.Authorization;
-using Default.Infra.Data.Core.Interfaces;
+﻿using Cep.Application.Core.Notification;
+using Cep.Domain.Core;
+using Cep.Infra.Data.Authorization;
+using Cep.Infra.Data.Core.Interfaces;
 using MediatR;
 using Microsoft.Extensions.Logging;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace Default.Application.Core
+namespace Cep.Application.Core
 {
     public abstract class CommandHandler
     {

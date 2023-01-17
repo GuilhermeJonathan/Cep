@@ -1,5 +1,5 @@
-﻿using Default.Domain.Repositories;
-using Default.Infra.Data.Context;
+﻿using Cep.Domain.Repositories;
+using Cep.Infra.Data.Context;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -7,7 +7,7 @@ using System.Linq;
 using System.Linq.Expressions;
 using System.Threading.Tasks;
 
-namespace Default.Infra.Data.Repository.Base.UnitOfWork
+namespace Cep.Infra.Data.Repository.Base.UnitOfWork
 {
     public abstract class Repository<TEntity> : IDisposable, IRepository<TEntity> where TEntity : class
     {

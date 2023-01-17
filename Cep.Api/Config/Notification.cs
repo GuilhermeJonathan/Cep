@@ -1,4 +1,4 @@
-﻿namespace Default.Api.Config
+﻿namespace Cep.Api.Config
 {
     public class Notification
     {

@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace Default.Application.Read.DTOs
+namespace Cep.Application.Read.DTOs
 {
     public class PageDTO<T>
     {

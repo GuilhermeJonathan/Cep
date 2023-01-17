@@ -1,8 +1,8 @@
-﻿using Default.Infra.Data.Core.Interfaces;
-using Default.Infra.Data.Repository.Base.UnitOfWork;
+﻿using Cep.Infra.Data.Core.Interfaces;
+using Cep.Infra.Data.Repository.Base.UnitOfWork;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace Default.Infra.CrossCutting.IoC
+namespace Cep.Infra.CrossCutting.IoC
 {
     public class NativeInjectorBootStrapper
     {

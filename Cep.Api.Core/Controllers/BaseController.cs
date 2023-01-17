@@ -1,9 +1,9 @@
-﻿using Default.Application.Core;
-using Default.Application.Core.Notification;
+﻿using Cep.Application.Core;
+using Cep.Application.Core.Notification;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Default.Api.Core.Controllers
+namespace Cep.Api.Core.Controllers
 {
     [Route("/[controller]")]
     [ApiController]

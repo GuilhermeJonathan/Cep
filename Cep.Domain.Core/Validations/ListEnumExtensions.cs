@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 
 
-namespace Default.Domain.Core.Validations
+namespace Cep.Domain.Core.Validations
 {
     public static class ListEnumExtensions
     {

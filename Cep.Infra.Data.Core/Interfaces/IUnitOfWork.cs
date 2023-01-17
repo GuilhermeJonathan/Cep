@@ -2,7 +2,7 @@
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Default.Infra.Data.Core.Interfaces
+namespace Cep.Infra.Data.Core.Interfaces
 {
     public interface IUnitOfWork : IDisposable
     {

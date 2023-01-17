@@ -1,6 +1,6 @@
-﻿using Default.Application.Core.Interfaces;
+﻿using Cep.Application.Core.Interfaces;
 
-namespace Default.Application.Core
+namespace Cep.Application.Core
 {
     public class CommandResult : ICommandResult
     {

@@ -1,7 +1,7 @@
 ﻿using MediatR;
 using System;
 
-namespace Default.Application.Core.Notification
+namespace Cep.Application.Core.Notification
 {
     public class NotificationDomain : INotification
     {

@@ -1,8 +1,8 @@
-﻿using Default.Infra.CrossCutting;
+﻿using Cep.Infra.CrossCutting;
 using Microsoft.Extensions.DependencyInjection;
 using System;
 
-namespace Default.Api.Config
+namespace Cep.Api.Config
 {
     public static class AutoMapperConfig
     {

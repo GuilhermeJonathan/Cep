@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace Default.Api.Config
+namespace Cep.Api.Config
 {
     public interface INotifier
     {

@@ -1,4 +1,4 @@
-﻿namespace Default.Domain.Core.Validations
+﻿namespace Cep.Domain.Core.Validations
 {
     public class SelectDTO
     {

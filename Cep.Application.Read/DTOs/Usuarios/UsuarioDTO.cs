@@ -1,4 +1,4 @@
-﻿namespace Default.Application.Read.DTOs.Usuarios
+﻿namespace Cep.Application.Read.DTOs.Usuarios
 {
     public class UsuarioDTO
     {

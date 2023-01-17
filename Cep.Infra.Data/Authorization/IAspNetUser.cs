@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Security.Claims;
 
-namespace Default.Infra.Data.Authorization
+namespace Cep.Infra.Data.Authorization
 {
     public interface IAspNetUser
     {

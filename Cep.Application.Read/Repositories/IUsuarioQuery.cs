@@ -1,4 +1,4 @@
-﻿namespace Default.Application.Read.Repositories
+﻿namespace Cep.Application.Read.Repositories
 {
     public interface IUsuarioQuery
     {

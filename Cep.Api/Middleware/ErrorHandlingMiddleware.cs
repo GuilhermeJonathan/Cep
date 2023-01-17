@@ -4,7 +4,7 @@ using System;
 using System.Net;
 using System.Threading.Tasks;
 
-namespace Default.Api.Middleware
+namespace Cep.Api.Middleware
 {
     public class ErrorHandlingMiddleware
     {

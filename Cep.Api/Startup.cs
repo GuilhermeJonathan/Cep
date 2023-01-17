@@ -1,9 +1,9 @@
 using Autofac;
 using Autofac.Extensions.DependencyInjection;
-using Default.Api.Config;
-using Default.Api.Config.IoC;
-using Default.Api.Config.Jwt;
-using Default.Api.Core.Config;
+using Cep.Api.Config;
+using Cep.Api.Config.IoC;
+using Cep.Api.Config.Jwt;
+using Cep.Api.Core.Config;
 using MediatR;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -15,7 +15,7 @@ using Microsoft.Extensions.Hosting;
 using System;
 using System.Reflection;
 
-namespace Default.Api
+namespace Cep.Api
 {
     public class Startup
     {

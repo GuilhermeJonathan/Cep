@@ -1,6 +1,6 @@
 ﻿using AutoMapper;
 
-namespace Default.Infra.CrossCutting
+namespace Cep.Infra.CrossCutting
 {
     public class DomainToQueryDTOMappingProfile : Profile
     {

@@ -1,4 +1,4 @@
-﻿namespace Default.Application.Read.DTOs
+﻿namespace Cep.Application.Read.DTOs
 {
     public class DescriptionDTO
     {

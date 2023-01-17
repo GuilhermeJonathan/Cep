@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Http;
 using System.Linq;
 
-namespace Default.Infra.Data.Authorization
+namespace Cep.Infra.Data.Authorization
 {
     public static class CustomAuthorizationValidation
     {

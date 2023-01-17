@@ -1,13 +1,13 @@
-﻿using Default.Api.Config;
-using Default.Api.Core.Controllers;
-using Default.Application.Core;
-using Default.Application.Core.Notification;
+﻿using Cep.Api.Config;
+using Cep.Api.Core.Controllers;
+using Cep.Application.Core;
+using Cep.Application.Core.Notification;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.ModelBinding;
 using System.Linq;
 
-namespace Default.Api.Controllers
+namespace Cep.Api.Controllers
 {
     public class BaseApiController : BaseController
     {

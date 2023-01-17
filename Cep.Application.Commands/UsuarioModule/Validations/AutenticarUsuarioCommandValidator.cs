@@ -1,7 +1,7 @@
-﻿using Default.Application.Commands.UsuarioModule.Command;
+﻿using Cep.Application.Commands.UsuarioModule.Command;
 using FluentValidation;
 
-namespace Default.Application.Commands.UsuarioModule.Validations
+namespace Cep.Application.Commands.UsuarioModule.Validations
 {
     public class AutenticarUsuarioCommandValidator : AbstractValidator<AutenticarUsuarioCommand>
     {

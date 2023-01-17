@@ -1,8 +1,8 @@
-﻿using Default.Infra.CrossCutting.IoC;
+﻿using Cep.Infra.CrossCutting.IoC;
 using Microsoft.Extensions.DependencyInjection;
 using System;
 
-namespace Default.Api.Config
+namespace Cep.Api.Config
 {
     public static class DependencyInjectionConfig
     {

@@ -1,4 +1,4 @@
-﻿namespace Default.Application.Core.Interfaces
+﻿namespace Cep.Application.Core.Interfaces
 {
     public interface ICommandResult
     {

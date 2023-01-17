@@ -1,6 +1,6 @@
-﻿using Default.Api.Middleware;
-using Default.Infra.Data.Authorization;
-using Default.Infra.Data.Context;
+﻿using Cep.Api.Middleware;
+using Cep.Infra.Data.Authorization;
+using Cep.Infra.Data.Context;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Http;
 using Microsoft.EntityFrameworkCore;
@@ -8,7 +8,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using System.Reflection;
 
-namespace Default.Api.Config
+namespace Cep.Api.Config
 {
     public static class Abstractions
     {

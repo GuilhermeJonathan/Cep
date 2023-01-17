@@ -1,11 +1,11 @@
-﻿using Default.Domain.Core;
-using Default.Infra.Data.Context;
+﻿using Cep.Domain.Core;
+using Cep.Infra.Data.Context;
 using MediatR;
 using Microsoft.Extensions.Logging;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Default.Infra.Data.Repository.Base.UnitOfWork
+namespace Cep.Infra.Data.Repository.Base.UnitOfWork
 {
     public static class MediatorExtension
     {

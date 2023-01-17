@@ -5,8 +5,16 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Handler\Usuarios\" />
-    <Folder Include="Queries\Usuarios\" />
+    <Compile Remove="Handler\Usuarios\**" />
+    <Compile Remove="Queries\Usuarios\**" />
+    <EmbeddedResource Remove="Handler\Usuarios\**" />
+    <EmbeddedResource Remove="Queries\Usuarios\**" />
+    <None Remove="Handler\Usuarios\**" />
+    <None Remove="Queries\Usuarios\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MediatR" Version="10.0.1" />
   </ItemGroup>
 
 </Project>

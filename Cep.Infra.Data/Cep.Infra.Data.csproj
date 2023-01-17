@@ -22,4 +22,8 @@
     <ProjectReference Include="..\Cep.Infra.Data.Core\Cep.Infra.Data.Core.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="EntityMappingConfig\" />
+  </ItemGroup>
+
 </Project>

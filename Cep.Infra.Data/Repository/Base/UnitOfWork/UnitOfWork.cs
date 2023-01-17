@@ -1,12 +1,12 @@
-﻿using Default.Infra.Data.Context;
-using Default.Infra.Data.Core.Interfaces;
+﻿using Cep.Infra.Data.Context;
+using Cep.Infra.Data.Core.Interfaces;
 using MediatR;
 using Microsoft.Extensions.Logging;
 using System;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Default.Infra.Data.Repository.Base.UnitOfWork
+namespace Cep.Infra.Data.Repository.Base.UnitOfWork
 {
     public class UnitOfWork : IUnitOfWork, IDisposable
     {

@@ -1,7 +1,7 @@
-﻿using Default.Application.Core.Interfaces;
+﻿using Cep.Application.Core.Interfaces;
 using System.ComponentModel.DataAnnotations;
 
-namespace Default.Application.Commands.UsuarioModule.Command
+namespace Cep.Application.Commands.UsuarioModule.Command
 {
     public class AutenticarUsuarioCommand : ICommand
     {

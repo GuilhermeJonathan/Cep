@@ -5,7 +5,7 @@ using System.Threading;
 using System.Threading.Tasks;
 
 
-namespace Default.Application.Core.Notification
+namespace Cep.Application.Core.Notification
 {
     public class NotificationDomainHandler : INotificationHandler<NotificationDomain>
     {
